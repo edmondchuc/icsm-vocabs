@@ -449,6 +449,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "A small roadway which connects other roads, or a major road, to another feature"@en ;
     skos:historyNote "QLD, VIC, WA roads data. Definition from WA property street address data dictionary." ;
     skos:inScheme cs: ;
+    skos:notation "BR"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Brace"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
@@ -687,6 +688,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "No known definition"@en ;
     skos:historyNote "QLD, VIC roads data." ;
     skos:inScheme cs: ;
+    skos:notation "CRSS"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Cross"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
@@ -833,6 +835,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "A roadway containing a sharp bend or turn"@en ;
     skos:historyNote "QLD, VIC, WA roads data. Definition from WA property street address data dictionary." ;
     skos:inScheme cs: ;
+    skos:notation "ELB"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Elbow"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
@@ -999,6 +1002,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "A roadway leading into an estate, main entrance to a focal point, Public Open Space, shopping area, etc"@en ;
     skos:historyNote "QLD, VIC, WA, NZ roads data. Definition from WA property street address data dictionary." ;
     skos:inScheme cs: ;
+    skos:notation "GTE"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Gate"@en ;
     skos:scopeNote "Not to be used for roads named after 2011 (AS/NZS4819:2011). " ;
     skos:topConceptOf cs: ;
@@ -1842,6 +1846,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Annex"@en ;
     skos:historyNote "QLD address data" ;
     skos:inScheme cs: ;
+    skos:notation "ANNX"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Annex"@en ;
     skos:topConceptOf cs: ;
 .
@@ -2354,6 +2359,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Lynne"@en ;
     skos:historyNote "QLD address data" ;
     skos:inScheme cs: ;
+    skos:notation "LYNN"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Lynne"@en ;
     skos:topConceptOf cs: ;
 .
