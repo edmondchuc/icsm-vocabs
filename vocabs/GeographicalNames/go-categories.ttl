@@ -824,7 +824,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :atoll
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "A coral island consisting of a reef surrounding a lagoon."@en ;
+    skos:definition "A coral island consisting of a reef surrounding a lagoon."@en ;
     skos:historyNote "Created by separating 'Island' alternate labels 2024-03-05. Definition adapted from Macquarie Dictionary." ;
     skos:inScheme cs: ;
     skos:prefLabel "Atoll"@en ;
@@ -2356,11 +2356,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :federal-electorate
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:altLabel "Electoral Division"@en ;
+    skos:altLabel "Electoral Division (Commonwealth)"@en ;
+    skos:altLabel "Electoral Division (Federal)"@en ;
+    skos:altLabel "Federal Electorate"@en ;
+    skos:altLabel "Federal Electoral Division"@en ;
     skos:definition "An administrative area of Australia represented by a member of Parliament elected at a House of Representatives election."@en ;
-    skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023." ;
+    skos:historyNote "Inherited from ICSM Place Names Working Group's National Feature Catalogue as at 21 December 2023. PrefLabel amended from Federal Electorate to Electoral Division on 12 June 2026 to align with terminology in the Commonwealth Electoral Act 1918, s56." ;
     skos:inScheme cs: ;
-    skos:prefLabel "Federal Electorate"@en ;
+    skos:prefLabel "Electoral Division"@en ;
 .
 
 :fence
