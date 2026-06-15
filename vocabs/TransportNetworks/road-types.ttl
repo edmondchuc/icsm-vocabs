@@ -93,6 +93,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :keys ,
         :knoll ,
         :ladder ,
+        :landing ,
         :lane ,
         :leader ,
         :loop ,
@@ -2292,7 +2293,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "IN"@en ;
     skos:definition ""@en ;
     skos:inScheme cs: ;
-    skos:notation "LDG"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
+    skos:notation "IN"^^<https://linked.data.gov.au/dataset/qld-addr/datatype/sir-pub> ;
     skos:prefLabel "Inlet"@en ;
     skos:topConceptOf cs: ;
 .
